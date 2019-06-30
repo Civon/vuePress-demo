@@ -2,7 +2,7 @@ module.exports = {
   title: 'Its VuePress',
   description: 'Just playing around',
 
-  permalink: "/:year/:i_month/:day/:slug", //* i_day, month
+  permalink: "/:slug", //*  :year/:i_month/:day/  i_day, month
   themeConfig: {
     // logo: '/assets/img/logo.png',
     lastUpdated: 'Last Updated', // string | boolean
