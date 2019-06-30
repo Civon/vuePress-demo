@@ -17,6 +17,10 @@ module.exports = {
       {
         text: 'link',
         link: '/sub/under/'
+      },
+      {
+        text: 'song',
+        link: '/sub/song/'
       }
     ]
   }

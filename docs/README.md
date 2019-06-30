@@ -9,10 +9,10 @@ actionLink: https://vuepress.vuejs.org
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: 礼席身海退负向武怪联智洋伯和。各姐旅灵决喊旅即金须确态爱术帝沉清错！备待绝谢究继将中脚夏宣恋济？律康通这人。弟警校左升！ 
-- title: Performant
-  details: 处六责特题船眼许吉够！呀幸夜森外塞洛谢。
+- title: 中正大學打擊樂社
+  details: 本社近年參加全國學生音樂比賽皆獲得優等，未來也將更努力精進合奏與個人音樂演奏能力。秉持「開心玩音樂」的精神，在享受音樂的過程中持續提升音樂素養與演奏技巧，期待能招攬並培養更多熱愛擊樂之人。 
+- title: 指導老師—魏郁青
+  details: 旅德期間常與著名木琴演奏家Fumito Nunoy和打擊樂家Andrey Doynikov合作，亦經常參與和舉辦不同類型的演出。2012年於TROMP荷蘭國際打擊音樂節比賽獲得最佳詮釋獎(MCN—Willem Vos Price)，並在2015年給予TROMP得獎者大師班講座。留美期間多次榮幸受邀於紐約州著名的交響樂團Slee 
 - title: Performant
   details: Quis occaecat id ipsum ullamco ipsum exercitation consequat nulla nulla consequat esse commodo cillum.
 - title: Performant
@@ -24,7 +24,8 @@ footer: MIT Licensed | Copyright
 
 ---
 [link](hey)  
-[liiiink](/hey)
+[liiiink](/hey)  
+[liiiinkkkkkk](@/hey)   <!-- not work-->
 
 > these not work when gen static file, subfix '.html'  add automativly  but no page reload
 
