@@ -1,4 +1,7 @@
 ---
+# set as root
+permalink: /
+
 home: true  # for apply theme set
 # heroImage: /hero.png
 actionText: Get Started →
