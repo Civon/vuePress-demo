@@ -1,6 +1,7 @@
 <template>
   <div id="compo-form">
     <h2>example form from netifly</h2>
+    <h3 id="no....">no #tag for vue compo</h3>
     <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>
@@ -34,4 +35,6 @@
       </p>
     </form>
   </div>
+
+  
 </template>

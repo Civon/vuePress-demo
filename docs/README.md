@@ -31,4 +31,3 @@ footer: MIT Licensed | Copyright
 ---
 add random url 
 
-<compo-form />

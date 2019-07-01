@@ -15,9 +15,17 @@ module.exports = {
         ]
       },
       {
+        text: 'hey',
+        link: '/hey/'
+      },
+      {
         text: 'link',
         link: '/sub/under/'
+      },
+      {
+        text: 'form',
+        link: '/sub/form/'
       }
-    ]
+    ] 
   }
 }
