@@ -5,14 +5,17 @@ node_js:
 script:
   - yarn :build
 deploy:
-  # provider: pages
+  provider: pages
   skip-cleanup: true
   local_dir: docs/.vuepress/dist
-  # github-token: $GITHUB_TOKEN # a token generated on github allowing travis to push code on you repository
+  github-token: $GITHUB_TOKEN # a token generated on github allowing travis to push code on you repository
   keep-history: true
   on:
     branch: master
 
 notifications:
-  slack:
-    on_success: always
+  slack: 
+    rooms:
+	    - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#general
+	    - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#random
+    on_success: change # default: always
