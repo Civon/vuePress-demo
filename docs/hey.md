@@ -12,3 +12,28 @@ dont.do(any)
 :::right
 im this side
 :::
+
+::: tip
+this is a tip 
+:::
+:::warning 
+a warning
+:::
+::: danger  SSSTOP
+danger
+::: 
+
+``` js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+
+# emoji 
+guidence :tada:   :100:  :100:
+::100
+🎉 💯   ??
