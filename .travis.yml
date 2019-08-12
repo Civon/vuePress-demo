@@ -19,7 +19,8 @@ script:
 
 notifications:
   slack: 
-    rooms:
-	    - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#general
-	    - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#random
-    on_success: change # default: always
+    rooms:[
+      - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#general
+      - ci-v:re7m5a8P6q5rP4XwfpGu7qU0#random
+    ]
+    # on_success:change # default: always
